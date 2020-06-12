@@ -5,6 +5,9 @@ It works on iOS and Android.
 
 ## Preview
 
+![react-native-splash-screen-ios](./assets/ios.gif) 
+![react-native-splash-screen-android](./assets/android.gif)
+
 ## Installation
 
 * Use yarn
@@ -61,16 +64,22 @@ return YES;
 
 * Add your own `drawable/splash.png` to `android/app/src/main/res/`, it is recommended to add `drawable-?dpi` folders that you need.
 
+  * drawable-hdpi
+  * drawable-mdpi
+  * drawable-xhdpi
+  * drawable-xxhdpi
+  * drawable-xxxhdpi
+
 * in MainActivity.java
 
 ```java
 ...
+import android.os.Bundle;
 import com.reactnativecomponent.splashscreen.RCTSplashScreen; //import RCTSplashScreen
 ...
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     RCTSplashScreen.openSplashScreen(this); //open splashscreen
-
     super.onCreate(savedInstanceState);
 }
 ```
