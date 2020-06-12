@@ -1,0 +1,22 @@
+{
+  "name": "@lumi-software/react-native-splash-screen",
+  "version": "1.0.1",
+  "description": "react-native-splash-screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumi-software/react-native-splash-screen.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "nghinv@lumi.biz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lumi-software/react-native-splash-screen/issues"
+  },
+  "homepage": "https://github.com/lumi-software/react-native-splash-screen#readme"
+}
