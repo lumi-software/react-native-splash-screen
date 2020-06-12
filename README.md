@@ -45,13 +45,6 @@ RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation mo
 
 [RCTSplashScreen open:rootView withImageNamed:@"splash"]; // activate splashscreen, imagename from LaunchScreen.xib
 
-// Only for ipad:
-if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-  [RCTSplashScreen open:rootView withImageNamed:@"splash_ipad"];
-} else {
-  [RCTSplashScreen open:rootView withImageNamed:@"splash"];
-}
-
 rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
 self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -76,12 +69,6 @@ return YES;
   * drawable-xhdpi
   * drawable-xxhdpi
   * drawable-xxxhdpi
-
-  For tablet:
-  * drawable-large-hdpi
-  * drawable-large-mdpi
-  * drawable-large-xhdpi
-  * drawable-large-xxhdpi
 
 * in MainActivity.java
 
