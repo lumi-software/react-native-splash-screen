@@ -43,9 +43,7 @@ npm install @nghinv/react-native-splash-screen --save
 
 RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation moduleName:@"ReactNativeComponents" initialProperties:nil launchOptions:launchOptions];
 
-[RCTSplashScreen open:rootView withImageNamed:@"splash"]; // activate splashscreen, imagename from LaunchScreen.xib
-
-// Only for ipad:
+// activate splashscreen, imagename from LaunchScreen.xib and LaunchScreen_iPad.xib
 if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
   [RCTSplashScreen open:rootView withImageNamed:@"splash_ipad"];
 } else {
