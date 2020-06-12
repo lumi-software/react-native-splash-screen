@@ -13,13 +13,13 @@ It works on iOS and Android.
 * Use yarn
 
 ```
-yarn add @nghinv/react-native-splash-screen
+yarn add @nghinv/react-native-splash-screen@tablet
 ```
 
 * Use npm
 
 ```
-npm install @nghinv/react-native-splash-screen --save
+npm install @nghinv/react-native-splash-screen@tablet --save
 ```
 
 ## Installation (iOS)
