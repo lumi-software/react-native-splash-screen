@@ -1,6 +1,6 @@
 {
-  "name": "@lumi-software/react-native-splash-screen",
-  "version": "1.0.1",
+  "name": "@nghinv/react-native-splash-screen",
+  "version": "1.0.0",
   "description": "react-native-splash-screen",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "react-native"
   ],
   "author": "nghinv@lumi.biz",
+  "types": "react-native-splash-screen.d.ts",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lumi-software/react-native-splash-screen/issues"
