@@ -1,5 +1,8 @@
 # @nghinv/react-native-splash-screen
 
+[![npm](https://img.shields.io/npm/v/@nghinv/react-native-splash-screen)](https://www.npmjs.com/package/@nghinv/react-native-splash-screen)
+[![npm](https://img.shields.io/npm/l/react-native-smart-splash-screen.svg)](https://github.com/lumi-software/react-native-splash-screen/blob/master/LICENSE)
+
 A smart splash screen for React Native apps, written in JS, oc and java for cross-platform support.
 It works on iOS and Android.
 
@@ -111,3 +114,11 @@ componentDidMount () {
 }
 ...
 ```
+
+## Method
+
+* close(animationType, duration, delay) close splash screen with custom animation
+
+  * animationType: determine the type of animation. enum(animationType.none, animationType.fade, animationType.scale)
+  * duration: determine the duration of animation
+  * delay: determine the delay of animation
