@@ -13,13 +13,13 @@ It works on iOS and Android.
 * Use yarn
 
 ```
-yarn add @nghinv/react-native-splash-screen@tablet
+yarn add @nghinv/react-native-splash-screen@1.0.0
 ```
 
 * Use npm
 
 ```
-npm install @nghinv/react-native-splash-screen@tablet --save
+npm install @nghinv/react-native-splash-screen@1.0.0 --save
 ```
 
 ## Installation (iOS)
@@ -122,3 +122,11 @@ componentDidMount () {
 }
 ...
 ```
+
+## Method
+
+* close(animationType, duration, delay) close splash screen with custom animation
+
+  * animationType: determine the type of animation. enum(animationType.none, animationType.fade, animationType.scale)
+  * duration: determine the duration of animation
+  * delay: determine the delay of animation

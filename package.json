@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-splash-screen",
-  "version": "1.0.0-tablet.1",
+  "version": "1.0.0",
   "description": "react-native-splash-screen",
   "main": "index.js",
   "scripts": {
