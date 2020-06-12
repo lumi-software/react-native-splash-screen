@@ -4,7 +4,6 @@
  */
 
 declare module '@nghinv/react-native-splash-screen' {
-
   interface AnimationType {
     none: String;
 
@@ -15,7 +14,13 @@ declare module '@nghinv/react-native-splash-screen' {
 
   interface SplashScreenParam {
     animationType: AnimationType;
+    /**
+     * Default 850
+     */
     duration: Number;
+    /**
+     * Default 500
+     */
     delay: Number;
   }
 

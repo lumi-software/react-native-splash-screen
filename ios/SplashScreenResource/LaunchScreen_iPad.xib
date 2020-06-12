@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="splash_iPad.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZkI-RL-69Z">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="splash_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZkI-RL-69Z">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
             </subviews>
@@ -26,6 +26,6 @@
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
     </objects>
     <resources>
-        <image name="splash_iPad.png" width="16" height="16"/>
+        <image name="splash_ipad.png" width="16" height="16"/>
     </resources>
 </document>

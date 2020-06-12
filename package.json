@@ -16,6 +16,9 @@
   "author": "nghinv@lumi.biz",
   "types": "react-native-splash-screen.d.ts",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/lumi-software/react-native-splash-screen/issues"
   },
